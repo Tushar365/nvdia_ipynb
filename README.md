@@ -1,81 +1,77 @@
-# OpenAI Introduction with Assistants
+# NVIDIA API Introduction
 
 **Preface**
 
-This guide will introduce you to using OpenAI and its powerful models, with a special focus on understanding and using OpenAI Assistants. You'll learn how to set up your environment, interact with the OpenAI API, and leverage the capabilities of Assistants for more complex tasks.
+This guide introduces you to NVIDIA's API and its powerful capabilities, focusing on understanding and using NVIDIA's services. You'll learn to set up your environment, interact with the NVIDIA API, and leverage its features for complex tasks.
 
 **Goals**
 
 By the end of this guide, you should:
 
-- Have working access to the OpenAI API.
-- Understand the capabilities of OpenAI's models, including GPT-4 and others.
+- Have working access to the NVIDIA API.
+- Understand the capabilities of NVIDIA's services.
 - Be able to make basic API calls.
-- Understand how to create and use OpenAI Assistants.
-- Begin experimenting with Assistants' tools and capabilities.
+- Understand how to use NVIDIA's various endpoints.
+- Begin experimenting with NVIDIA's tools and capabilities.
 
 **Main Resources**
 
 - **Required Accounts:**
-  - OpenAI Account and API Key
+  - NVIDIA Developer Account and API Key
 - **Core Services:**
-  - OpenAI API
-  - OpenAI Assistants API
-  - `openai` Python library
+  - NVIDIA API
 - **Development Tools:**
   - Python 3.7+ (ideally 3.9+)
   - Code Editor (VS Code, PyCharm, etc.) or Notebook environment
+  - `requests` Python library
 
 **Tasks**
 
-- **OpenAI API Setup:**
-  - Obtain an API key from your OpenAI account.
-  -  Securely configure your API key (e.g., using environment variables or a .env file).
+- **NVIDIA API Setup:**
+  - Obtain an API key from your NVIDIA Developer account.
+  - Securely configure your API key (e.g., using environment variables or a .env file).
 - **Basic Integration:**
-  - Install the `openai` Python package
-  - Configure API key
-- **OpenAI Exploration:**
-  - Understand model capabilities (GPT-3.5, GPT-4, etc.)
-  - Make basic API calls for text generation.
-- **OpenAI Assistants Introduction:**
-  - Understand the concept of OpenAI Assistants.
-  - Create and configure a basic Assistant.
-  - Begin experimenting with Assistant capabilities.
+  - Install the `requests` Python package
+  - Configure API key and base URL
+- **NVIDIA API Exploration:**
+  - Understand available endpoints and services
+  - Make basic API calls to NVIDIA services
+- **Advanced Usage:**
+  - Explore NVIDIA's AI and GPU-accelerated services
+  - Implement error handling and rate limiting
 
 ## Instructions
 
-- **Sign up on the [OpenAI Platform](https://platform.openai.com/docs/overview)**
+- **Sign up on the [NVIDIA Developer Platform](https://developer.nvidia.com/)**
 - **API Key Management:**
-  - Obtain your API key from the OpenAI website.
-  - Do not share your API key. Keep it securely stored.
+  - Obtain your API key from the NVIDIA Developer website.
+  - Keep your API key secure and do not share it.
 
 **Environment Setup**
 
 - **Code:**
-  - Recommended to import the GitHub repository in your [IDX environment](https://idx.google.com/import?url=https://github.com/aicampg/aisg-7-day-aiimmersion)
-  - Ensure `requirements.txt` (or similar) is installed containing the openai library
-  - Run the code and explore.
-    -  Remember to handle your API key carefully.
+  - Set up a new Python project in your preferred environment
+  - Install `requirements.txt` containing the necessary libraries
+  - Run the code and explore, handling your API key carefully.
 
 ## Further Resources
 
 **Documentation:**
 
-- OpenAI API Documentation: [https://platform.openai.com/docs/api-reference](https://platform.openai.com/docs/api-reference)
-- OpenAI Assistants API Documentation: [https://platform.openai.com/docs/assistants/overview](https://platform.openai.com/docs/assistants/overview)
-- OpenAI Python Library: [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
+- [NVIDIA API Documentation](https://developer.nvidia.com/documentation)
+- [NVIDIA Developer Resources](https://developer.nvidia.com/developer-program)
 
 **Learning Materials:**
 
-- OpenAI Cookbook: [https://github.com/openai/openai-cookbook](https://github.com/openai/openai-cookbook)
-- OpenAI Community Forum: [https://community.openai.com/](https://community.openai.com/)
+- [NVIDIA Developer Blog](https://developer.nvidia.com/blog)
+- [NVIDIA Developer Forums](https://forums.developer.nvidia.com/)
 
 **Helpful Tips**
 
-- **Keep your API key secure.** Do not commit it to any public repository or share it in code.
-- **Monitor your API usage:**  Be aware of your spending limits and API usage to avoid unexpected charges.
-- **Start with small requests:** Begin with smaller requests to understand the models' behavior before processing larger, more complex tasks.
-- **Review error messages:** Pay close attention to any errors and consult the documentation for troubleshooting.
-- **Experiment with prompt engineering:**  Learn how to effectively craft prompts for the desired outputs.
-- **Explore Assistants' tools:**  Investigate the available tools like Code Interpreter, File Retrieval and Function calling, to maximize the capabilities of Assistants.
-- **Use threads:** Threads are the containers for conversations with Assistants. They also allow you to preserve the history of a conversation.
+- **API Key Security:** Never commit your API key to public repositories or share it in code.
+- **Monitor API Usage:** Be aware of usage limits to avoid unexpected charges or rate limiting.
+- **Start Small:** Begin with simpler API calls to understand the response structure.
+- **Error Handling:** Implement robust error handling for API responses.
+- **Rate Limiting:** Be mindful of and respect NVIDIA's rate limits for API calls.
+- **Explore Services:** Investigate NVIDIA's various AI and GPU-accelerated services.
+- **Stay Updated:** Keep track of NVIDIA's API updates and new feature releases.
