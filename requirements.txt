@@ -2,3 +2,8 @@ openai
 PyYAML
 requests
 python-dotenv
+langchain_nvidia_ai_endpoints
+langchain-experimental
+faiss-cpu
+sentence-transformers
+transformers
